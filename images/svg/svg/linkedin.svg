@@ -1,0 +1,19 @@
+<svg viewBox="0 0 24 24" fill="none" width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        :root, .palette0 {color: currentColor;
+            --color0: #4d5ae5;
+            --color1: #2e2f42;
+            --color2: #f4f4fd;
+        }
+    </style>
+    <g fill="var(--color2, #f4f4fd)" clip-path="url(#linkedin_clip0_1050812_317)">
+        <path d="M23.994 24v-1e-3H24v-8.802c0-4.306-0.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-0.07V7.976l-4.773 0 0 16.023h4.97v-7.934c0-2.089 0.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24z" />
+        <path d="M0.396 7.9771l4.976 0V24H0.396z" />
+        <path d="M2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909C5.763 1.291 4.472 0 2.882 0z" />
+    </g>
+    <defs>
+        <clipPath id="linkedin_clip0_1050812_317">
+            <rect fill="#fff" width="24" height="24" />
+        </clipPath>
+    </defs>
+</svg>
