@@ -353,6 +353,7 @@ body {
 .footer-wrap {
   display: flex;
   align-items: baseline;
+  gap: 80px;
 }
 .footer-wrapper {
   /* padding-top: 100px;
@@ -383,7 +384,7 @@ body {
   max-width: 208px;
   /* padding-top: 100px;*/
   /*margin-top: 16px;*/
-  margin-left: 120px;
+  margin-left: 40px;
   align-items: baseline;
 }
 .footer-social-text {
@@ -408,7 +409,7 @@ body {
   margin: 8px auto;
 }
 .footer-subscribe {
-  padding-left: 80px;
+  /* padding-left: 80px;*/
   box-shadow: #31d0aa;
   border-color: #fff;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -416,7 +417,7 @@ body {
 .footer-form {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 .footer-subscribe-text {
   color: #fff;
@@ -535,8 +536,8 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  margin-top: 16px;
-  margin-right: 16px;
+  margin-top: 24px;
+  margin-right: 24px;
   width: 24px;
   height: 24px;
   background-color: #e7e9fc;
@@ -565,7 +566,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   /*margin-bottom: 18px;*/
-  padding-bottom: 16px;
+  padding-bottom: 10px;
   text-align: center;
   color: #2e2f42; /*navyblue*/
 }
@@ -598,7 +599,9 @@ body {
 }
 .modal-input:focus + .modal-name-icon {
   stroke: #4d5ae5;
+  fill:#4d5ae5
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea {
   width: 100%;
@@ -675,14 +678,14 @@ body {
 .modal-button {
   width: 169px;
   height: 56px;
-  margin-top: 16px;
+  /*margin-top: 16px;*/
 
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5; /*iris*/
   color: #fff; /*cloud*/
-  margin: 22px auto;
+  margin: 24px auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:hover,
