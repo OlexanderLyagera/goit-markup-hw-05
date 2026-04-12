@@ -448,11 +448,7 @@ body {
 .footer-btn:focus {
   background-color: #31d0aa; /*ocean*/
 }
-.footer-subscribe-icon {
-  /* margin-left: 16px;*/
-  text-align: 4px;
-  /* background-color: #fff;*/
-}
+
 .footer-btn-text {
   display: flex;
   gap: 16px;
@@ -537,7 +533,7 @@ body {
 .modal-close-btn:focus {
   background-color: #404bbf;
   color: #fff;
-  fill: #fff;
+  /*fill: #fff;*/
 }
 .modal-wrapper {
   display: flex;
@@ -577,6 +573,15 @@ body {
   padding-left: 38px;
   width: 100%;
 }
+.modal-input:focus {
+  outline: transparent;
+  border-color: #4d5ae5;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input:focus + .modal-name-icon {
+  stroke: #4d5ae5;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-textarea {
   width: 100%;
   height: 120px;
@@ -589,6 +594,11 @@ body {
   padding-top: 8px;
   padding-left: 16px;
   resize: none;
+}
+.modal-textarea:focus {
+  outline: transparent;
+  border-color: #4d5ae5;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input-wrapper:hover,
 .modal-input-wrapper:focus,
@@ -609,7 +619,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  fill: transparent;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -623,10 +633,10 @@ body {
 .modal-checkbox:checked + .checkbox .checkbox-checked {
   background-color: #404bbf;
   opacity: 1;
+  /* fill: #fff;*/
 }
 .checkbox-icon {
-  opacity: 0;
-  fill: none;
+  opacity: 1;
 }
 .checkbox-link {
   /* display: flex;*/
