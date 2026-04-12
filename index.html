@@ -738,14 +738,80 @@
         </div>
       </div>
     </footer>
-
     <div class="backdrop" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
-          close ghvihggvkjhv
+          <svg
+            class="footer-close-icon"
+            width="8"
+            height="8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use href="./images/icons.svg#close" />
+          </svg>
         </button>
+        <div class="modal-wrapper">
+          <p class="modal-title">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="modal-form">
+            <label for="name" class="input-text"
+              >Name
+              <input
+                id="name"
+                class="modal-input"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+            </label>
+            <label for="tel" class="input-text"
+              >Phone
+              <input
+                id="tel"
+                class="modal-input"
+                type="tel"
+                placeholder="Phone number"
+                required
+              />
+            </label>
+            <label for="email" class="input-text"
+              >Email
+              <input
+                id="email"
+                class="modal-input"
+                type="email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <label for="comment" class="input-text"
+              >Comment
+              <textarea
+                id="comment"
+                class="modal-textarea"
+                placeholder="Text input"
+                required
+              >
+Comment</textarea
+              >
+            </label>
+            <label for="checkbox">
+              <input
+                class="modal-checkbox"
+                type="checkbox"
+                id="checkbox"
+                required
+              />
+              I agree to the processing of my personal data
+            </label>
+            <button class="modal-button" type="submit">Send</button>
+          </form>
+        </div>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
