@@ -442,7 +442,7 @@ body {
 }
 .footer-subscribe-icon {
   margin-left: 16px;
-  vertical-align: bottom;
+  text-align: 4px;
   /* background-color: #fff;*/
 }
 .team-title,
@@ -515,12 +515,13 @@ body {
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: #e7e9fc;
+  color: #e7e9fc;
 
   cursor: pointer;
 }
+
 .modal-wrapper {
-  padding-inline: 26px;
+  padding-inline: 24px;
   padding-top: 72px;
 }
 .modal-title {
@@ -540,21 +541,58 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  color: #8E8F99;
+  color: #8e8f99;
   border-radius: 4px;
+  position: relative;
 }
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  
+  height: 40px;
+  padding-left: 38px;
 }
 .modal-textarea {
+  width: 100%;
+  height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   font-size: 12px;
   line-height: 1.17;
-      letter-spacing: 0.04em;
-color: rgba(46, 47, 66, 0.4);
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   padding-top: 8px;
   padding-left: 16px;
+}
+.checkbox {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.checkbox-link {
+  /* display: flex;*/
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  border-bottom: 1px solid #4d5ae5;
+}
+.modal-name-icon {
+  position: absolute;
+  bottom: 14px;
+  left: 16px;
+}
+.modal-button {
+  width: 169px;
+  height: 56px;
+  margin-top: 16px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5; /*iris*/
+  color: #fff; /*cloud*/
+  margin: 22px auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
