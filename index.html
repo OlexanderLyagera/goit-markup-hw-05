@@ -59,7 +59,9 @@
             <h1 class="solutions-title">
               Effective Solutions for Your Business
             </h1>
-            <button class="solution-button" type="button">Order Service</button>
+            <button class="solution-button" type="button" data-modal-open>
+              Order Service
+            </button>
           </div>
         </div>
       </section>
@@ -711,8 +713,39 @@
               </li>
             </ul>
           </div>
+          <div class="footer-subscribe">
+            <p class="footer-subscribe-text">Subscribe</p>
+            <form class="footer-form">
+              <input
+                class="footer-input"
+                type="email"
+                placeholder="E-mail"
+                required
+              />
+              <button class="footer-btn" type="submit">
+                Subscribe<svg
+                  class="footer-subscribe-icon"
+                  width="24"
+                  height="20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="./images/icons.svg#subscribe" />
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          close ghvihggvkjhv
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

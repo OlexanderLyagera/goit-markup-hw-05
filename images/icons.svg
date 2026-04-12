@@ -4,9 +4,13 @@
             --color0: #4d5ae5;
             --color1: #2e2f42;
             --color2: #f4f4fd;
+            --color3: #fff;
         }
     </style>
     <defs>
+        <symbol id="subscribe" viewBox="0 0 24 24" fill="none">
+            <path fill="var(--color3, #fff)" d="M24 2 0 13.25l7.6699 2.3672L19.5 6.375 10.5017 16.4913l73e-4 23e-4-9e-3-23e-4V22l4.3013-4.1817 5.4488 1.6817z" />
+        </symbol>
         <symbol id="linkedin" viewBox="0 0 24 24" fill="none">
             <g fill="var(--color2, #f4f4fd)" clip-path="url(#clip0_1050812_317)">
                 <path d="M23.994 24v-1e-3H24v-8.802c0-4.306-0.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-0.07V7.976l-4.773 0 0 16.023h4.97v-7.934c0-2.089 0.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24z" />
