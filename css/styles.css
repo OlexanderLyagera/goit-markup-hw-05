@@ -451,7 +451,7 @@ body {
 .footer-btn {
   padding-block: 8px;
   padding-left: 24px;
-
+  cursor: pointer;
   width: 165px;
   border: none;
   text-align: center;
