@@ -550,6 +550,7 @@ body {
   flex-direction: column;
   padding-inline: 24px;
   padding-top: 72px;
+  padding-bottom: 22px;
 }
 .modal-title {
   font-weight: 500;
@@ -625,7 +626,7 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
   padding-top: 6px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .checkbox-checked {
   display: flex;
@@ -641,7 +642,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 22px;
+  /*padding-bottom: 22px;*/
 }
 .modal-checkbox:checked + .checkbox .checkbox-checked {
   background-color: #404bbf;
