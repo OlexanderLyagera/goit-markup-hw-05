@@ -33,7 +33,7 @@ body {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  /*margin-right: 0;*/
+
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -45,14 +45,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-wrapper {
-  /*max-width: 1128px;*/
-
   display: flex;
-
-  /* justify-content: space-between;*/
   align-items: center;
-
-  /*gap: 76px;*/
 }
 
 .logo {
@@ -168,8 +162,6 @@ body {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
-  /* width: 169px;
-  height: 56px;*/
   color: #ffffff; /*white*/
   background-color: #4d5ae5; /*iris*/
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -214,9 +206,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: #f4f4fd;
-  /*width: 264px;*/
   height: 112px;
   margin-bottom: 8px;
   padding: 24px 100px;
@@ -251,14 +241,13 @@ body {
 }
 .team-img {
   width: 264px;
-  /* height: 260px;*/
 }
 .team-item-wrapper {
   padding: 32px 16px;
 }
 .team-item {
   width: 264px;
-  /*height: 380px;*/
+
   text-align: center;
   border-radius: 0 0 4px 4px;
   background-color: #fff;
@@ -285,10 +274,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*margin: 12px auto;
-  align-items: center;*/
-  /*padding: 24px 100px;
-  border: #8e8f99 solid 1px;*/
+
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -303,14 +289,8 @@ body {
 .portfolio-item {
   width: 360px;
   overflow: hidden;
-  /*box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 .portfolio-item:hover,
-/*.portfolio-item:focus,*/
 .curtain:focus,
 .portfolio-item-wrapper:focus {
   box-shadow:
@@ -320,7 +300,6 @@ body {
 }
 .portfolio-img {
   width: 360px;
-  /*height: 300px;*/
 }
 .portfolio-item-wrapper {
   border-left: 1px solid #e7e9fc;
@@ -341,24 +320,17 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .curtain-text {
-  /*opacity: 1;*/
   transform: translateY(0);
 }
 .curtain {
   position: relative;
   overflow: hidden;
-  /* opacity: 0;*/
-  /*transition: opacity 0.3s ease;*/
 }
 .footer-wrap {
   display: flex;
   align-items: baseline;
-  /*gap: 80px;*/
 }
 .footer-wrapper {
-  /* padding-top: 100px;
-  padding-bottom: 100px;*/
-
   max-width: 264px;
 }
 
@@ -382,8 +354,7 @@ body {
 }
 .footer-social-wrapper {
   max-width: 208px;
-  /* padding-top: 100px;*/
-  /*margin-top: 16px;*/
+
   margin-left: 120px;
   margin-right: 80px;
   align-items: baseline;
@@ -410,7 +381,6 @@ body {
   margin: 8px auto;
 }
 .footer-subscribe {
-  /* padding-left: 80px;*/
   margin-left: auto;
   box-shadow: #31d0aa;
   border-color: #fff;
@@ -539,6 +509,8 @@ body {
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
@@ -642,14 +614,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*padding-bottom: 22px;*/
+  padding-top: 14px;
+  padding-bottom: 24px;
 }
 .modal-checkbox:checked + .checkbox .checkbox-checked {
   background-color: #404bbf;
   border-color: #404bbf;
-
   opacity: 1;
-  /*fill: #f4f4fd;*/
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox:checked + .checkbox .checkbox-icon {
@@ -658,7 +629,6 @@ body {
 }
 .checkbox-checked {
   border: 1px solid rgba(46, 47, 66, 0.4);
-  /*opacity: 0;*/
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -690,7 +660,6 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin: 0 auto;
-  /* margin-bottom: 22px;*/
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:hover,
